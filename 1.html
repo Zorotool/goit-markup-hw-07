@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/1.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="modal">
+    <form class="form js-speaker-form" autocomplete="on">
+
+        <div class="form-group">
+            <h3>Оставьте свои данные, мы вам перезвоним</h3>
+
+            <label class="forn-lable"   for="name">Имя</label>
+            <input class="form-input" type="text" name="user-name" id="name" autofocus />
+            <svg class="form-icon">
+                <use href="./images/symbol-defs.svg#person-black-18dp-1"> </use>
+            </svg>
+        </div>
+
+        <div class="form-group">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel">
+            <svg class="form-icon">
+                <use href="./images/symbol-defs.svg#phone-black-18dp-1"> </use>
+            </svg>
+        </div>
+            
+        <div class="form-group">
+            <label for="email">Почта</label>
+            <input type="email" name="tel" id="email">
+            <svg class="form-icon">
+                <use href="./images/symbol-defs.svg#email-black-18dp-1"> </use>
+            </svg>
+        </div>
+        
+        <div class="form-group">
+            <label for="comment">Оставьте комментарий</label>
+            <textarea name="comment" id="comment" cols="" rows="3" placeholder="Введите текст"></textarea>
+        </div>
+            
+        <label class="check option">
+            <input class="check-input" type="checkbox">
+            <span class="check-box"></span>
+            Соглашаюсь с рассылкой и принимаю
+            <a class="agreement" href="#//">Условия договора</a>
+        </label>
+
+        <button class="close-button" data-modal-close>
+            <svg class="modal-icon">
+                <use href="./images/symbol-defs.svg#close"> </use>
+            </svg>
+        </button>
+
+        <button class="submit-button" type="submit">Отправить</button>
+    </form>
+</div>
+
+</body>
+</html>
