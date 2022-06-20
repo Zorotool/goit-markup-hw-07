@@ -14,7 +14,7 @@
     --accent-color: #2196F3;
         }
 
-h1, h2, h3, h4, h5, h6, ul, p {
+/* h1, h2, h3, h4, h5, h6, ul, p {
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ img {display: block;}
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     margin: 0;
-}
+} */
 /* Секции */
 .section {
     padding-top: 94px;    
@@ -39,14 +39,7 @@ img {display: block;}
     padding-bottom: 0;
 }
 /* Заголовки секций */
-.section-title {
-    color: var(--title-text-color);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 50px;
-}
+
 /* Все заголовки внутри секций*/
 .title {
     color: var(--title-text-color);
@@ -57,9 +50,9 @@ img {display: block;}
 }
 
 /* Фон для секции */
-.background {
+/* .background {
     background-color: #F5F4FA;
-}
+} */
 
 .container {
     margin-left: auto;
@@ -86,15 +79,13 @@ img {display: block;}
 }
 
 /* Скрытие элементов */
-.hide {
-    display: none;
-}
 
-.list {
+
+/* .list {
     padding: 0px;
     margin: 0px;
     list-style: none;
-}
+} */
 
 .header {
     display: flex;
@@ -257,7 +248,7 @@ a.current:after {
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.features-list {
+/* .features-list {
     display: flex;
     }
 
@@ -296,9 +287,9 @@ a.current:after {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-}
+} */
 
-.work {
+/* .work {
     display: flex;
 }
 
@@ -323,9 +314,9 @@ a.current:after {
     position: absolute;
     bottom: 0;
     background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
-.team {
+/* .team {
     display: flex;
 }
 
@@ -403,10 +394,10 @@ margin-bottom: 30px;
 .social .link:hover .icon,
 .social .link:focus .icon {
 fill: #F5F4FA;
-}
+} */
 
 /* Постоянные клиенты */
-.clients-list {
+/* .clients-list {
     display: flex;
 }
 
@@ -438,7 +429,7 @@ fill: #F5F4FA;
 .client-icon {
     width: 106px;
     height: 60px;
-}
+} */
 
 .section-projects {
     padding-top: 94px;
@@ -573,7 +564,7 @@ padding: 20px 24px;
     text-decoration: none;
 }
 
-.footer {
+/* .footer {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -640,7 +631,7 @@ fill: #FFFFFF;
 .social-footer .link {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-}
+} */
 
 
 
@@ -837,7 +828,7 @@ fill: #FFFFFF;
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.subcrib {
+/* .subcrib {
     display: flex;
     align-items: flex-start;
     position: relative;
@@ -868,4 +859,4 @@ fill: #FFFFFF;
     position: absolute;
     top: 60px;
     right: 28px;
-    }
+    } */

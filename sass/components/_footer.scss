@@ -1,0 +1,144 @@
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.address {
+  margin-right: 70px;
+
+  &__list {
+    margin-top: 20px;
+  }
+
+  .logo__Studio {
+    color: #ffffff;
+  }
+
+  &__contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    margin-bottom: 9px;
+  }
+}
+
+.footer .geo-address {
+  color: #ffffff;
+}
+
+.social {
+  padding: 0;
+  justify-content: left;
+}
+
+.social-footer .list .list-item:not(:last-child) {
+  margin-right: 10px;
+  display: flex;
+  bottom: 0;
+}
+
+.join {
+  text-align: left;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__icon--gray {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__link--grey {
+    display: block;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__link--grey:hover,
+  &__link--grey:focus {
+    background-color: #2196f3;
+  }
+
+  &__link--grey:hover .social-list__icon,
+  &__link--grey:focus .social-list__icon {
+    fill: #f5f4fa;
+  }
+}
+
+.subcrib {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-items: flex-start;
+  margin-left: auto;
+
+  &__input {
+    width: 358px;
+    height: 50px;
+    padding: 16px;
+    margin-right: 12px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+  }
+
+  &__button {
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    padding: 10px 29px;
+    margin-top: 47px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 60px;
+    right: 28px;
+  }
+}
