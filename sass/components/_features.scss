@@ -1,44 +1,71 @@
-.features-section {
-  padding-top: 94px;
-  padding-bottom: 0;
+.section__title {
+  display: none;
 }
 
 .features {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.features__tumb {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 
-  &__item {
-    width: 270px;
-    &:not(:first-child) {
-      margin-left: 30px;
-    }
-  }
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
 
-  &__tumb {
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.features__description {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+// ============== Tablet =================
+.features__set {
+  text-align: center;
+  font-style: 32px;
+  @media screen and (min-width: 768px) {
     display: flex;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
+    flex-wrap: wrap;
+    margin: -15px;
 
-  &__icon {
-    width: 70px;
-    height: 70px;
-  }
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
 
-  &__title {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.17;
-    color: var(--title-text-color);
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  &__description {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    .features__item {
+      width: 350px;
+      margin: 15px;
+    }
+
+    .features__title {
+      text-align: left;
+    }
+    .features__description {
+      margin-bottom: 0;
+    }
   }
 }
